@@ -11,7 +11,7 @@ def hello():
 
 
 def main():
-    """User interface."""
+    """Interface."""
     hello()
     welcome_user()
 
