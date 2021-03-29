@@ -11,7 +11,7 @@ def hello():
 
 
 def main():
-    """Main interface"""
+    """Interface brain-games."""
     hello()
     welcome_user()
 
