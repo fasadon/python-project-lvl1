@@ -2,13 +2,14 @@
 """Main program brain even."""
 
 
-from brain_games.even import welcome_user, game_even
+from brain_games.even import game_even, welcome_user
 
 
 def hello():
     """Hello for user."""
     print('Welcome to the Brain Games!')
-    
+
+
 def main():
     """Interface brain-even."""
     hello()

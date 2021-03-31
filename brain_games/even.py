@@ -1,13 +1,14 @@
 """Interface for evengames."""
-import prompt
 import random
+
+import prompt
 
 
 def welcome_user():
     """Hello with the user.
 
     Returns:
-        name: username
+        name: string username
     """
     name = prompt.string('May I have your name? ')
     print('Hello, {name}!'.format(name=name))
@@ -18,11 +19,11 @@ def is_even(number):
     """Check number for even.
 
     Args:
-        number: any integer number
+        number: any integer positive number
 
     Returns:
-        'yes': if number is evem
-        'no': if number is odd
+        'yes': string if number is evem
+        'no': string if number is odd
     """
     if number % 2 == 0:
         return 'yes'
@@ -33,8 +34,8 @@ def check_answer(number, answer):
     """Compare user answer with correct answer.
 
     Args:
-        number: any integer number
-        answer: useranswer for question
+        number: any integer positive number
+        answer: string 'yes' or 'no'
 
     Returns:
         True: if useranswer is correct
@@ -48,7 +49,7 @@ def question(number):
     """Ask question about number.
 
     Args:
-        number: any integer number
+        number: any integer positive number
     """
     print('Question: {0}'.format(number))
 
@@ -57,11 +58,12 @@ def wrong_answer(number, answer, name_user):
     """Do this outputs correct answer, if user send wrong answer.
 
     Args:
-        number: any integer number
-        answer: useranswer for question
-        name_user: username
+        number: any integer positive number
+        answer: string 'yes' or 'no'
+        name_user: string username
     """
-    print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(answer, is_even(number)))
+    correct_answer = "'{0}' is wrong answer ;(. Correct answer was '{1}'."
+    print(correct_answer.format(answer, is_even(number)))
     print("Let's try again, {name}!".format(name=name_user))
 
 
@@ -69,7 +71,7 @@ def game_even(name_user):
     """Interace game-even.
 
     Args:
-        name_user: username
+        name_user: string username
     """
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count_correct_answer = 0
