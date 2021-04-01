@@ -6,3 +6,7 @@
 ### Gameplay brain-even:
 
 [![asciicast](https://asciinema.org/a/hQOz4XBnsgC0jaWi8MujTX09a.svg)](https://asciinema.org/a/hQOz4XBnsgC0jaWi8MujTX09a)
+
+### Gameplay brain-cacl:
+
+[![asciicast](https://asciinema.org/a/gC1cg4QthZZw3tyqdlWg9MPHp.svg)](https://asciinema.org/a/gC1cg4QthZZw3tyqdlWg9MPHp)
