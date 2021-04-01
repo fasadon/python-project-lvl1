@@ -2,19 +2,13 @@
 """Main program brain even."""
 
 
-from brain_games.games.even import game_even, welcome_user
-
-
-def hello():
-    """Hello for user."""
-    print('Welcome to the Brain Games!')
+from brain_games.games.even import game_even, rule_of_game
+from brain_games.engine import engine
 
 
 def main():
     """Interface brain-even."""
-    hello()
-    name = welcome_user()
-    game_even(name)
+    engine(game_even, rule_of_game)
 
 
 if __name__ == '__main__':

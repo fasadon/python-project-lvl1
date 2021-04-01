@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
 
-from brain_games.games.calc import game_calc
-from brain_games.games.even import welcome_user
-
-
-def hello():
-    """Hello for user."""
-    print('Welcome to the Brain Games!')
+from brain_games.games.calc import game_calc, rule_of_game
+from brain_games.engine import engine
     
     
 def main():
     """Interface brain-calc."""
-    hello()
-    name = welcome_user()
-    game_calc(name)
+    engine(game_calc, rule_of_game)
 
 
 if __name__ == '__main__':
