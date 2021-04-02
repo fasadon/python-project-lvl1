@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """Main program brain even."""
-
-
-from brain_games.games.even import game_even, rule_of_game
 from brain_games.engine import engine
+from brain_games.games.even import game_even, rule_of_game
 
 
 def main():

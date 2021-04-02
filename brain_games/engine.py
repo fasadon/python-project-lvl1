@@ -1,11 +1,17 @@
+"""Game engine."""
 import prompt
 
 
-
 def engine(game_brain, rule_game):
+    """Game engine.
+
+    Args:
+        game_brain: function any game module
+        rule_game: function
+    """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print("Hello, {0}".format(name))
+    print('Hello, {0}'.format(name))
     rule_game()
     count_correct_answer = 0
     while count_correct_answer < 3:
@@ -21,5 +27,4 @@ def engine(game_brain, rule_game):
         print("Let's try again, {0}!".format(name))
         break
     if count_correct_answer == 3:
-        print("Congratulations, {0}!".format(name))
-
+        print('Congratulations, {0}!'.format(name))
