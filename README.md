@@ -21,4 +21,4 @@
 
 ### Gameplay brain-prime:
 
-https://asciinema.org/a/H9a9wFBsrYcUnKVq3qo4R5Mzw
+[![asciicast](https://asciinema.org/a/H9a9wFBsrYcUnKVq3qo4R5Mzw.svg)](https://asciinema.org/a/H9a9wFBsrYcUnKVq3qo4R5Mzw)
