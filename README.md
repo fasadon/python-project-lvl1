@@ -9,4 +9,16 @@
 
 ### Gameplay brain-cacl:
 
-[![asciicast](https://asciinema.org/a/gC1cg4QthZZw3tyqdlWg9MPHp.svg)](https://asciinema.org/a/gC1cg4QthZZw3tyqdlWg9MPHp)
+[![asciicast](https://asciinema.org/a/RH0YfQh13cAovLa8bgPr1KF5S.svg)](https://asciinema.org/a/RH0YfQh13cAovLa8bgPr1KF5S)
+
+### Gameplay brain-gcd:
+
+[![asciicast](https://asciinema.org/a/lX8HxFd6qouENGoHtX8ii8chN.svg)](https://asciinema.org/a/lX8HxFd6qouENGoHtX8ii8chN)
+
+### Gameplay brain-progression:
+
+[![asciicast](https://asciinema.org/a/A2uULfPkbQMyiEuxtwhvjiMMz.svg)](https://asciinema.org/a/A2uULfPkbQMyiEuxtwhvjiMMz)
+
+### Gameplay brain-prime:
+
+https://asciinema.org/a/H9a9wFBsrYcUnKVq3qo4R5Mzw
